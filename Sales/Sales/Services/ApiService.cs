@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Net.Http;
-using System.Threading.Tasks;
-using Newtonsoft.Json;
-using Sales.Common.Models;
-
-namespace Sales.Services
+﻿namespace Sales.Services
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Net.Http;
+    using System.Threading.Tasks;
+    using Newtonsoft.Json;
+    using Common.Models;
+
     public class ApiService
     {
         public async Task<Response> GetList<T>(string urlBase, string prefix, string controller)

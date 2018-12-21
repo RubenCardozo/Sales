@@ -43,7 +43,7 @@
 
         // POST: Products/Create
         // Afin de déjouer les attaques par sur-validation, activez les propriétés spécifiques que vous voulez lier. Pour 
-        // plus de détails, voir  https://go.microsoft.com/fwlink/?LinkId=317598.
+        // plus de détails, voir  https://go.microsoft.com/fwlink/?LinkId=317598. 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Create(ProductView view)
